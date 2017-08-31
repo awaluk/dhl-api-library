@@ -1,0 +1,23 @@
+{
+    "name": "awaluk/dhl-api-library",
+    "description": "Simple library to integrate application with DHL API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arkadiusz Waluk",
+            "email": "arkadiusz@waluk.pl",
+            "role": "developer",
+            "homepage": "https://waluk.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "awaluk\\DhlApi\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">7.1",
+        "ext-soap": "*"
+    }
+}
