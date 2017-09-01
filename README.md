@@ -1,5 +1,7 @@
 # DHL API Library
 
+![Travis](https://travis-ci.org/awaluk/dhl-api-library.svg?branch=master)
+
 ## Installation
 - `composer install`
 
