@@ -6,7 +6,11 @@ use Exception;
 
 class ApiErrorException extends Exception
 {
-    public function __construct($message)
+    /**
+     * ApiErrorException constructor.
+     * @param string $message
+     */
+    public function __construct(string $message)
     {
         $this->message = 'Error while loading data from DHL API: '.$message;
     }
