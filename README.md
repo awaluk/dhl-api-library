@@ -2,6 +2,8 @@
 
 ![Travis](https://travis-ci.org/awaluk/dhl-api-library.svg?branch=master)
 
+**Important!** This library isn't complete. In this moment I implemented only few methods specified below.
+
 ## Installation
 - `composer install`
 
