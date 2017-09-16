@@ -7,7 +7,6 @@ use Exception;
 class ApiErrorException extends Exception
 {
     /**
-     * ApiErrorException constructor.
      * @param string $message
      */
     public function __construct(string $message)

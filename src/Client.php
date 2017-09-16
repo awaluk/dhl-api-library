@@ -13,7 +13,6 @@ class Client
     private $config;
 
     /**
-     * Client constructor.
      * @param Config $config
      * @param null $client
      * @throws ApiErrorException

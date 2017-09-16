@@ -11,7 +11,6 @@ class Config
     private $password;
 
     /**
-     * Config constructor.
      * @param string $url
      * @param string $username
      * @param string $password
@@ -21,7 +20,6 @@ class Config
         $this->url = $url;
         $this->username = $username;
         $this->password = $password;
-        return $this;
     }
 
     /**

@@ -8,7 +8,6 @@ class ItemToPrint implements StructureInterface
     private $shipmentId;
 
     /**
-     * ItemToPrint constructor.
      * @param string $labelType
      * @param int $shipmentId
      */

@@ -10,7 +10,6 @@ class Api
     private $client;
 
     /**
-     * Api constructor.
      * @param Config $config
      * @param null $client
      */

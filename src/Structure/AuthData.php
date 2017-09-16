@@ -8,7 +8,6 @@ class AuthData implements StructureInterface
     private $password;
 
     /**
-     * AuthData constructor.
      * @param string $username
      * @param string $password
      */
